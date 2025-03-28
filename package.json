@@ -12,47 +12,33 @@
     "@mui/material": "^6.4.4",
     "canvas-confetti": "1.9.3",
     "lodash": "4.17.21",
-    "next": "15.1.7",
+    "next": "^15.2.4",
     "react": "19.0.0",
     "react-dom": "19.0.0"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "3.2.0",
-    "@eslint/js": "9.20.0",
-    "@next/eslint-plugin-next": "15.1.7",
-    "@portabletext/react": "3.2.1",
+    "@eslint/compat": "1.2.7",
+    "@next/eslint-plugin-next": "15.2.3",
     "@types/canvas-confetti": "1.9.0",
-    "@types/lodash": "4.17.15",
-    "@types/node": "22.13.4",
-    "@types/react": "19.0.10",
+    "@types/lodash": "4.17.16",
+    "@types/node": "22.13.13",
+    "@types/react": "19.0.12",
     "@types/react-dom": "19.0.4",
-    "eslint": "9.20.1",
-    "eslint-config-prettier": "10.0.1",
-    "eslint-config-standard": "17.1.0",
-    "eslint-plugin-perfectionist": "4.9.0",
-    "eslint-plugin-prettier": "5.2.3",
+    "eslint": "9.23.0",
+    "eslint-config-prettier": "10.1.1",
+    "eslint-plugin-perfectionist": "4.10.1",
+    "eslint-plugin-prettier": "5.2.4",
     "eslint-plugin-react": "7.37.4",
-    "eslint-plugin-react-hooks": "5.1.0",
+    "eslint-plugin-react-hooks": "5.2.0",
     "husky": "9.1.7",
-    "lint-staged": "15.4.3",
-    "prettier": "3.5.1",
-    "typescript": "5.7.3",
-    "typescript-eslint": "8.24.1"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "sharp"
-    ],
-    "peerDependencyRules": {
-      "allowedVersions": {
-        "eslint-config-standard>eslint": "^9"
-      }
-    }
+    "lint-staged": "15.5.0",
+    "typescript": "5.8.2",
+    "typescript-eslint": "8.27.0"
   },
   "scripts": {
-    "build": "pnpm run clean && next build",
+    "build": "npm run clean && next build",
     "clean": "rm -rf .next",
-    "dev": "pnpm run clean && next dev",
+    "dev": "npm run clean && next dev",
     "prepare": "husky",
     "start": "next start"
   }
