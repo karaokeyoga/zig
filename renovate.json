@@ -1,5 +1,10 @@
 {
   "automerge": true,
   "automergeType": "branch",
-  "extends": ["config:recommended"]
+  "extends": [
+    "config:recommended"
+  ],
+  "schedule": [
+    "* */6 * * *"
+  ]
 }
