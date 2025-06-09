@@ -39,7 +39,9 @@
     "build": "npm run clean && next build",
     "clean": "rm -rf .next",
     "dev": "npm run clean && next dev",
+    "eslint": "eslint --fix --ext .ts,.tsx .",
     "prepare": "husky",
-    "start": "next start"
+    "start": "next start",
+    "tsc": "tsc --noEmit"
   }
 }

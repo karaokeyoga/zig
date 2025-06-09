@@ -29,7 +29,7 @@ export default [
     },
     rules: {
       '@typescript-eslint/no-unused-vars': 'warn',
-      'no-unused-vars': 'warn',
+      'no-unused-vars': 'off',
       'no-use-before-define': 'off',
       'perfectionist/sort-imports': ['error', { newlinesBetween: 'never' }],
       'prettier/prettier': ['error', { arrowParens: 'avoid', endOfLine: 'lf', printWidth: 160, semi: false, singleQuote: true, trailingComma: 'none' }],

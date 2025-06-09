@@ -1,7 +1,7 @@
 'use client'
 
-import { Puzzle } from '@/comp/puzzle'
 import { FC } from 'react'
+import { Puzzle } from '@/comp/puzzle'
 
 // components
 

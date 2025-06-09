@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
-import { Client } from '@/comp/client'
-import { BACKGROUND } from '@/util/const'
 import { Box } from '@mui/material'
 import { Bungee, Roboto } from 'next/font/google'
 import { FC, ReactNode } from 'react'
+import { Client } from '@/comp/client'
+import { BACKGROUND } from '@/util/const'
 
 // types
 

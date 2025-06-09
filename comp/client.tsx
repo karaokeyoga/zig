@@ -1,9 +1,9 @@
 'use client'
 
-import { AppContext } from '@/comp/appContext'
-import { THEME } from '@/util/theme'
 import { CssBaseline, ThemeProvider } from '@mui/material'
 import { FC, ReactNode } from 'react'
+import { AppContext } from '@/comp/appContext'
+import { THEME } from '@/util/theme'
 
 // types
 

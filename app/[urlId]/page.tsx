@@ -1,9 +1,9 @@
 'use client'
 
-import { Puzzle } from '@/comp/puzzle'
-import { BOARDS } from '@/util/puzzles'
 import { notFound } from 'next/navigation'
 import { FC, ReactNode, use, useEffect, useState } from 'react'
+import { Puzzle } from '@/comp/puzzle'
+import { BOARDS } from '@/util/puzzles'
 
 // types
 

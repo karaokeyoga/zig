@@ -1,8 +1,8 @@
 'use client'
 
-import { useAppContext } from '@/comp/appContext'
 import { Box, Button, Dialog, DialogActions, DialogContent, DialogTitle, Slider, Typography } from '@mui/material'
 import { FC } from 'react'
+import { useAppContext } from '@/comp/appContext'
 
 // components
 

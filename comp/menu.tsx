@@ -1,14 +1,14 @@
 'use client'
 
+import { useOpening } from '@hoologic/use-opening'
+import { Button, MenuItem, Menu as MuiMenu } from '@mui/material'
+import { FC, useEffect } from 'react'
 import { AboutDialog } from '@/comp/aboutDialog'
 import { useAppContext } from '@/comp/appContext'
 import { KeysDialog } from '@/comp/keysDialog'
 import { SizeDialog } from '@/comp/sizeDialog'
 import { ORANGE } from '@/util/const'
 import { Modes } from '@/util/enum'
-import { useOpening } from '@hoologic/use-opening'
-import { Button, MenuItem, Menu as MuiMenu } from '@mui/material'
-import { FC, useEffect } from 'react'
 import { ShareDialog } from './shareDialog'
 
 // constants
