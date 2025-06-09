@@ -1,9 +1,9 @@
 'use client'
 
-import { useMobileMediaQuery } from '@/hooks/mobileMediaQuery'
 import { Opening } from '@hoologic/use-opening'
 import { Button, Dialog, DialogActions, DialogContent, DialogTitle, Link, List, ListItem, Typography } from '@mui/material'
 import { FC, useCallback } from 'react'
+import { useMobileMediaQuery } from '@/hooks/mobileMediaQuery'
 import { useAppContext } from './appContext'
 
 // types

@@ -1,5 +1,7 @@
 'use client'
 
+import { Box, Paper } from '@mui/material'
+import { FC, useEffect } from 'react'
 import { useAppContext } from '@/comp/appContext'
 import { Cell } from '@/comp/cell'
 import { Goal } from '@/comp/goal'
@@ -11,8 +13,6 @@ import { STOP_PROPAGATION } from '@/util/const'
 import { Modes } from '@/util/enum'
 import { getPuzzle } from '@/util/func'
 import { BOARDS } from '@/util/puzzles'
-import { Box, Paper } from '@mui/material'
-import { FC, useEffect } from 'react'
 
 // types
 

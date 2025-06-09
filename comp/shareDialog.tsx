@@ -1,13 +1,13 @@
 'use client'
 
-import { useAppContext } from '@/comp/appContext'
-import { AMBER } from '@/util/const'
-import { BOARDS } from '@/util/puzzles'
 import { Opening } from '@hoologic/use-opening'
 import { ContentCopy } from '@mui/icons-material'
 import { Box, Button, Chip, Dialog, DialogActions, DialogContent, DialogTitle, Typography } from '@mui/material'
 import { common } from '@mui/material/colors'
 import { FC, useMemo, useState } from 'react'
+import { useAppContext } from '@/comp/appContext'
+import { AMBER } from '@/util/const'
+import { BOARDS } from '@/util/puzzles'
 
 // types
 
