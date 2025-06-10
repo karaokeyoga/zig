@@ -21,7 +21,7 @@
     "@next/eslint-plugin-next": "15.3.3",
     "@types/canvas-confetti": "1.9.0",
     "@types/lodash": "4.17.17",
-    "@types/node": "22.15.30",
+    "@types/node": "22.15.31",
     "@types/react": "19.1.6",
     "@types/react-dom": "19.1.6",
     "eslint": "9.28.0",
